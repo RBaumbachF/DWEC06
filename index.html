@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="homePageLink">Restaurantes</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownCategories" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorías
+                            </a>
+                            <ul id="ulCategories" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navAllergens">Alérgenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navMenus">Menús</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownRestaurantes" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Restaurantes
+                            </a>
+                            <ul id="ulRestaurants" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="navCreateDish">Crear platos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navDeleteDish">Eliminar platos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navAssignMenu">Asignar platos a menús</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navCreateCategory">Crear categorías</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navDeleteCategory">Eliminar categorías</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navCreateRestaurant">Crear restaurantes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navModifyCategory">Modificar categorías</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="central" class="vh-100 align-item-center"></div>
+    <footer class="fixed-bottom bg-light text-center">
+        Ruth Baumbach Fernández · DWEC06
+    </footer>
+
+
+</body>
+<script type="module" src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
